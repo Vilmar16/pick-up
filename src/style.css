@@ -1,0 +1,93 @@
+/* Fundo preto e texto claro no body */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #121212; /* preto escuro */
+  color: #e0e0e0; /* texto claro */
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center; /* centraliza horizontal */
+  align-items: flex-start; /* topo */
+  padding: 2rem;
+}
+
+/* Container máximo e centralizado */
+div.px-8.py-8.max-w-5xl.mx-auto {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Título centralizado */
+h1.text-center {
+  color: #ffffff;
+}
+
+/* Input estilizado para dark */
+input[type="text"] {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 1px solid #444;
+  border-radius: 6px;
+  background-color: #222;
+  color: #eee;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #646cff;
+  outline: none;
+}
+
+/* Cards dos produtos */
+div.border.rounded-md.p-5.shadow-md {
+  background-color: #1e1e1e;
+  border-width: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  color: #e0e0e0;
+}
+
+/* Bordas verdes para transporta */
+.border-green-400 {
+  border-color: #4ade80 !important; /* verde claro */
+}
+
+/* Bordas vermelhas para não transporta */
+.border-red-400 {
+  border-color: #f87171 !important; /* vermelho claro */
+}
+
+/* Texto status verde e vermelho */
+.text-green-700 {
+  color: #22c55e !important; /* verde */
+}
+
+.text-red-700 {
+  color: #ef4444 !important; /* vermelho */
+}
+
+/* Títulos dos grupos */
+h2.text-2xl.font-bold.mb-4.border-b.pb-2 {
+  border-color: #444;
+  color: #f3f4f6;
+}
+
+/* Espaçamento entre grupos */
+section.mb-10 {
+  margin-bottom: 3rem;
+}
+
+/* Grid espaçado */
+.grid.grid-cols-1.sm\:grid-cols-2.lg\:grid-cols-3.gap-6 {
+  gap: 1.5rem;
+}
+
+/* Parágrafo quando nenhum produto encontrado */
+p.text-center.text-gray-500.text-lg {
+  color: #999;
+  font-size: 1.125rem;
+  margin-top: 2rem;
+}
